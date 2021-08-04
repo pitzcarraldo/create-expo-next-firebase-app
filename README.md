@@ -3,7 +3,7 @@
 ## Preparation
 
 - Setup [Firebase CLI](https://firebase.google.com/docs/cli)
-- Replace $firebase-app from [firebase.json](./firebase.json), [firebase-hosting-deploy.yml](./.github/workflows/firebase-hosting-deploy.yml) to your firebase app id.
+- Replace $firebase-app from [.firebaserc](./.firebaserc), [firebase-hosting-deploy.yml](./.github/workflows/firebase-hosting-deploy.yml) to your firebase app id.
 - Add `FIREBASE_SERVICE_ACCOUNT` to your repository's action secret.
   - [Configuration guide](https://github.com/marketplace/actions/deploy-to-firebase-hosting#firebaseserviceaccount-string-required)
 
