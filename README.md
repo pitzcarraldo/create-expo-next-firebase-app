@@ -3,8 +3,8 @@
 ## Preparation
 
 - Setup [Firebase CLI](https://firebase.google.com/docs/cli)
-- Replace $firebase-app from [.firebaserc](./.firebaserc), [firebase-hosting-deploy.yml](./.github/workflows/firebase-hosting-deploy.yml) to your firebase app id.
-- Add `FIREBASE_SERVICE_ACCOUNT` to your repository's action secret.
+- Replace `create-expo-next-firebase-app` from [.firebaserc](./.firebaserc), [firebase-hosting-deploy.yml](./.github/workflows/firebase-hosting-deploy.yml) to your firebase app id.
+- Add `FIREBASE_SERVICE_ACCOUNT_CREATE_EXPO_NEXT_FIREBASE_APP` to your repository's action secret.
   - [Configuration guide](https://github.com/marketplace/actions/deploy-to-firebase-hosting#firebaseserviceaccount-string-required)
 
 ## Getting Started
